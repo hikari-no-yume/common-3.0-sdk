@@ -2,7 +2,7 @@ name: Build and Test common 3.0 SDK
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "libobjc-test"]
     tags: ["v*"]
   pull_request:
     branches: ["main"]
